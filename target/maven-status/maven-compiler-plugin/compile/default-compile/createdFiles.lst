@@ -1,0 +1,5 @@
+myapp/Application.class
+myapp/repo/PersonneRepo.class
+myapp/entities/Personne.class
+myapp/repo/ContratRepo.class
+myapp/entities/Contrat.class
