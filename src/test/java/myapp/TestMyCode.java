@@ -27,13 +27,13 @@ public class TestMyCode {
     public void myFirstTest() {
         System.out.println("Hello");
 
-        Personne personne = new Personne(1L, "Chlih", "Amine", "ADRESS", "06");
+        Personne personne = new Personne(1L, "C", "Ae", "ADRESS", "06");
         personneRepo.save(personne);
 
-        Personne personne2 = new Personne(2L, "Chlih2", "Amine2", "ADRESS", "06");
+        Personne personne2 = new Personne(2L, "Ch2", "Am2", "ADRESS", "06");
         personneRepo.save(personne2);
 
-        Personne personne3 = new Personne(3L, "Chlih3", "Amine3", "ADRESS", "06");
+        Personne personne3 = new Personne(3L, "Ch3", "A3", "ADRESS", "06");
         personneRepo.save(personne3);
 
         Contrat contrat1 = new Contrat();
